@@ -8,7 +8,7 @@ menu: 链接
 permalink: /links/
 ---
 
-> God made relatives. Thank God we can choose our friends.
+> 常用图形学和3D打印相关链接
 
 {% for link in site.data.links %}
 * [{{ link.name }}]({{ link.url }})
