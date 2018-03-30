@@ -2,7 +2,7 @@
 #   Main Configs   #
 # ---------------- #
 baseurl:
-url: https://3dincremnt.github.io
+url: https://3dincrement.github.io
 date_format: "ordinal"
 title: 3D increment
 subtitle: "3D 打印改变生活"
