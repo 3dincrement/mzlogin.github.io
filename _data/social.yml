@@ -2,46 +2,6 @@
   name: 3dincrement
   url: https://github.com/3dincrement
 
-<<<<<<< HEAD
-- #sitename: 掘金#
-  #name: mzlogin
-  #url: http://gold.xitu.io/user/570ddaeb2e958a005c63b2da
-
-- #sitename: LinkedIn#
-  #name: mazhuang#
-  #url: https://www.linkedin.com/in/mazhuang#
-
-- #sitename: 博客#
-=======
-#- sitename: 掘金#
-  #name: mzlogin
-  #url: http://gold.xitu.io/user/570ddaeb2e958a005c63b2da
-
-#- sitename: LinkedIn#
-  #name: mazhuang#
-  #url: https://www.linkedin.com/in/mazhuang#
-
-#- sitename: 博客#
->>>>>>> be1d1216e62774cf6f5f39be69438690c4c3e0dd
-  #name: 码志#
-  #url: http://mazhuang.org#
-
 - sitename: 微博
   #name: mzlogin#
   #url: http://weibo.com/mzlogin#
-
-<<<<<<< HEAD
-- #sitename: 知乎#
-  #name: mzlogin#
-  #url: http://www.zhihu.com/people/mzlogin#
-
-- #sitename: 豆瓣#
-=======
-#- sitename: 知乎#
-  #name: mzlogin#
-  #url: http://www.zhihu.com/people/mzlogin#
-
-#- sitename: 豆瓣#
->>>>>>> be1d1216e62774cf6f5f39be69438690c4c3e0dd
-  #name: 壮哥不胖#
-  #url: http://www.douban.com/people/freedim#
