@@ -18,7 +18,7 @@ side_bar_repo_limit: 5
 author: increment
 organization: 3D increment
 organization_url: https://3dincrement.github.io
-github_username: mzlogin
+github_username: 3dincrement
 location: Qingdao, China
 email: 3dincremnt@gmail.com
 
@@ -97,11 +97,11 @@ gitment:
         client_id: 6aac903760c8b3b313e8
         client_secret: 0696db07ba2897d037fcac78c3575d317ce990c6
 # https://github.com/gitalk/gitalk#install
-gitalk:
-    owner:  3dincrement
-    repo: 3dincrement.github.io
-    clientID: 6aac903760c8b3b313e8
-    clientSecret: 0696db07ba2897d037fcac78c3575d317ce990c6
+#gitalk:
+ #   owner:  3dincrement
+#    repo: 3dincrement.github.io
+#    clientID: 6aac903760c8b3b313e8
+#    clientSecret: 0696db07ba2897d037fcac78c3575d317ce990c6
 # 在使用其它评论组件时可点击显示 Disqus
 lazy_load_disqus : false
 
