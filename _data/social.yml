@@ -6,15 +6,15 @@
   name: 3dincrement
   url: https://github.com/3dincrement
 
-- #sitename: 掘金#
+#- sitename: 掘金#
   #name: mzlogin
   #url: http://gold.xitu.io/user/570ddaeb2e958a005c63b2da
 
-- #sitename: LinkedIn#
+#- sitename: LinkedIn#
   #name: mazhuang#
   #url: https://www.linkedin.com/in/mazhuang#
 
-- #sitename: 博客#
+#- sitename: 博客#
   #name: 码志#
   #url: http://mazhuang.org#
 
@@ -22,10 +22,10 @@
   #name: mzlogin#
   #url: http://weibo.com/mzlogin#
 
-- #sitename: 知乎#
+#- sitename: 知乎#
   #name: mzlogin#
   #url: http://www.zhihu.com/people/mzlogin#
 
-- #sitename: 豆瓣#
+#- sitename: 豆瓣#
   #name: 壮哥不胖#
   #url: http://www.douban.com/people/freedim#
