@@ -16,6 +16,7 @@ permalink: /about/
 * {{ website.sitename }}：[@{{ website.name }}]({{ website.url }})
 {% endfor %}
 
+<<<<<<< HEAD
 ## Skill Keywords
 
 {% for category in site.data.skills %}
@@ -27,4 +28,6 @@ permalink: /about/
 </div>
 {% endfor %}
 
+=======
+>>>>>>> be1d1216e62774cf6f5f39be69438690c4c3e0dd
 [1]: http://www.cs.sdu.edu.cn/zh/~llu
