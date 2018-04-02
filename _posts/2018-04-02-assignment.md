@@ -1,3 +1,10 @@
+---
+layout: post
+title: 3D打印项目二面题目
+categories: assignment
+description: 二面题目
+keywords: assignment
+---
 # 3D打印项目二面题目
 
 ------
