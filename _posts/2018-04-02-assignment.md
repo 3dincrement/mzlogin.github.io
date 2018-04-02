@@ -19,7 +19,7 @@ keywords: assignment
 - [ ] 识别照片中手指个数，这里只要求能识别以下四种手势
 - [ ] 界面美观性不做要求
 - [ ] 提示：可使用[opencv](https://opencv.org/)等计算机视觉库
-![gesture](../images/posts/gesture.png)
+<div align="center"><img width="400px" height="400px" src="https://github.com/3dincrement/3dincrement.github.io/tree/master/images/posts/gesture.png"/></div>
 
 ## 二. Web端
 设计并实现一个网站，主题自拟，可以以个人主页为主题，满足以下条件：
