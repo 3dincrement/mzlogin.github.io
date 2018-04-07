@@ -68,6 +68,7 @@ quiet: false
 excerpt_separator: "\n\n"
 permalink: /:year/:month/:day/:title/
 gems:
+    - bootstrap
     - jekyll-github-metadata
     - rouge
 #     - jekyll-html-pipeline
