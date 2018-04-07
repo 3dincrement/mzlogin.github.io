@@ -2,7 +2,7 @@
 #   Main Configs   #
 # ---------------- #
 baseurl:
-url: https://3dincrement.github.io
+url: https://3dincrement18.github.io
 date_format: "ordinal"
 title: 3D Increment
 subtitle: "3D 打印改变生活"
@@ -17,7 +17,7 @@ side_bar_repo_limit: 5
 # ---------------- #
 author: 3D Increment
 organization: 3D Increment
-organization_url: https://3dincrement.github.io
+organization_url: https://3dincrement18.github.io
 github_username: 3dincrement
 location: Qingdao, China
 email: 3dincremnt@gmail.com
@@ -31,8 +31,16 @@ navs:
     label: 首页
 
   -
+    href: /member/
+    label: 团队
+    
+  -
+    href: /publications/
+    label: 成果
+
+  -
     href: /categories/
-    label: 分类
+    label: blog
 
   -
     href: /wiki/
@@ -41,14 +49,6 @@ navs:
   -
     href: /links/
     label: 链接
-
-  -
-    href: /member/
-    label: 成员
-    
-  -
-    href: /about/
-    label: 关于
 
 # ---------------- #
 #       RSS        #

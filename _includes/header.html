@@ -17,7 +17,9 @@
     <link rel="stylesheet" href="{{ site.url }}/assets/vendor/share.js/dist/css/share.min.css">
     <link rel="stylesheet" href="{{ site.url }}/assets/css/globals/responsive.css">
     <link rel="stylesheet" href="{{ site.url }}/assets/css/posts/index.css">
-	<link rel="stylesheet" href="{{ site.url }}assets/vendor/bootstrap-3.3.7-dist/css/bootstrap.min.css">
+	<!-- 最新版本的 Bootstrap 核心 CSS 文件 -->
+<link rel="stylesheet" href="https://cdn.bootcss.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+
     <!-- Latest compiled and minified CSS -->
     {% for css in page.css %}
     <link rel="stylesheet" href="{{ site.url }}/assets/css/{{css}}">
@@ -69,7 +71,10 @@
     {% endif %}
     <script src="{{ site.url }}/assets/vendor/jquery/dist/jquery.min.js"></script>
     <script src="{{ site.url }}/assets/js/jquery-ui.js"></script>
-	<script src="{{ site.url }}/assets/vendor/bootstrap-3.3.7-dist/js/bootstrap.min.js"></script>
+	 <!-- jQuery (Bootstrap 的所有 JavaScript 插件都依赖 jQuery，所以必须放在前边) -->
+    <script src="https://cdn.bootcss.com/jquery/1.12.4/jquery.min.js"></script>
+	<!-- 最新的 Bootstrap 核心 JavaScript 文件 -->
+	<script src="https://cdn.bootcss.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
     <script type="text/javascript">
     function toggleMenu() {
         var nav = document.getElementsByClassName("site-header-nav")[0];
@@ -92,7 +97,7 @@
             </button>
             <nav class="site-header-nav" role="navigation">
                 {% for nav in site.navs %}
-                <a href="{{ site.url }}{{ nav.href }}" class="{% if page.menu == nav.label %} selected {% endif %} site-header-nav-item" target="{{ nav.target | default: _self }}" title="{{ nav.label }}">{{ nav.label }}</a>
+                <a href="{{ site.url }}{{ nav.href }}" class="{% if page.menu == nav.label %} selected {% endif %} site-header-nav-item" target="{{ nav.target | default: _self }}" title="{{ nav.label }}"><h4>{{ nav.label }}</h4></a>
                 {% endfor %}
             </nav>
         </div>
